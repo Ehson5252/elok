@@ -1,10 +1,16 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>ELOK</h1>
-      <h4>ОНЛАЙН БОЗОР</h4>
+      <Header />
+
+
+      <p>Шумо метавонед дилхох пойафзол, курта ва либосро онлайн фармоиш дихед.</p>
+      <footer>
+            <p>&copy; 2024 Algorithm Shop</p>
+        </footer>
     </div>
   );
 }
